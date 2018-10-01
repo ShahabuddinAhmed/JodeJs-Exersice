@@ -13,4 +13,8 @@ app.get('/login', function(req, res) {
     res.sendFile(__dirname + '/login.html');
 });
 
+app.get('/profile/:id', function(req, res) {
+    res.send('My Profile name is:' + req.params.id);
+});
+
 app.listen(3000);
