@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-exersice",
+  "version": "1.0.0",
+  "description": "NodeJS Exersice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahabuddinAhmed/NodeJS-Exersice.git"
+  },
+  "keywords": [
+    "Shahabuddin",
+    "Ahmed"
+  ],
+  "author": "Shahabuddin Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahabuddinAhmed/NodeJS-Exersice/issues"
+  },
+  "homepage": "https://github.com/ShahabuddinAhmed/NodeJS-Exersice#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
