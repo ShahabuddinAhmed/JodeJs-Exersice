@@ -10,5 +10,11 @@
     <h3>Here is my Profile. My Profile name is: <%= person %> </h3>
     <p> <strong>Age: </strong> <%= data.age %> </p>
     <p> <strong>dept: </strong> <%= data.dept %> </p>
+    <h3>Hobbies</h3>
+    <ul>
+        <% data.hobbies.forEach(function(item) { %>
+        <li> <%= item %> </li>
+        <% }); %>
+    </ul>
 </body>
 </html>
